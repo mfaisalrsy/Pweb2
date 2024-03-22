@@ -40,33 +40,33 @@ include_once 'sidebar.php';
               </div>
               <div class="card-body">
               <?php
- // definisikan variables
- $nama = 'Rosalie Naurah';
- $umur = 13;
- $berat = 22.4;
+            // definisikan variables
+            $nama = 'Rosalie Naurah';
+            $umur = 13;
+            $berat = 22.4;
 
- echo 'namaku adalah:' . $nama;
- echo '<br>';
- echo 'Nama : ' . $nama;
- echo '<br/>Umur : ' . $umur.' Tahun';
- echo '<br/>Berat : '.$berat.' Kg';
+            echo 'namaku adalah:' . $nama;
+            echo '<br>';
+            echo 'Nama : ' . $nama;
+            echo '<br/>Umur : ' . $umur.' Tahun';
+            echo '<br/>Berat : '.$berat.' Kg';
 
- echo "<br/>Hello $nama Apakabar";
+            echo "<br/>Hello $nama Apakabar";
 
- echo '<hr>';
+            echo '<hr>';
 
- // variable system
-echo 'Dokumen Root '.$_SERVER["DOCUMENT_ROOT"];
-echo '<br/>Nama File '.$_SERVER["PHP_SELF"];
+            // variable system
+            echo 'Dokumen Root '.$_SERVER["DOCUMENT_ROOT"];
+            echo '<br/>Nama File '.$_SERVER["PHP_SELF"];
 
 
-//definisikan variabel konstanta
-// define: untuk memanggil variabel konstanta
-define('PELAJARAN', 'pemweb');
+            //definisikan variabel konstanta
+            // define: untuk memanggil variabel konstanta
+            define('PELAJARAN', 'pemweb');
 
-echo PELAJARAN;
+            echo PELAJARAN;
 
- ?>
+            ?>
               </div>
               <!-- /.card-body -->
               <div class="card-footer">
